@@ -1,8 +1,11 @@
-let nombreSecreto = Freyja;
-let nombreAmigo = prompt("Indica el nombre de tu amigo:");
-
-console.log(nombreAmigo);
-
-if (nombreAmigo == nombreSecreto) {
-    alert('Acertaste el nombre');
+function asignarTextoElemento(elemento, texto) {
+    let elementoHTML = document.querySelector (elemento);
+    elementoHTML.innerHTML = texto; 
 }
+
+function agregarAmigo() {
+    alert ('¡Hola, has hecho click en el botón!');
+}
+
+asignarTextoElemento('h1', 'Juego del Amigo Secreto');
+asignarTextoElemento('h2', 'Digite el nombre de sus amigos');
