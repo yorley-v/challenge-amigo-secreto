@@ -1,5 +1,6 @@
 let amigos = []
 let listaAmigos = document.getElementById('listaAmigos');
+let 
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector (elemento);
@@ -8,6 +9,10 @@ function asignarTextoElemento(elemento, texto) {
 
 function agregarAmigo() {
     alert ('¡Hola, has hecho click en el botón!');
+}
+
+function resetList() {
+    alert ('¡Has iniciado una nueva partida!');
 }
 
 asignarTextoElemento('h1', 'Juego del Amigo Secreto');

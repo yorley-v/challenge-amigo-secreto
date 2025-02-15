@@ -16,6 +16,13 @@
 }
 
 body {
+    background-image: url('amigo-secreto.webp');
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center right; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+body {
     height: 100vh;
     background-color: var(--color-primary);
     display: flex;
@@ -32,7 +39,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +48,7 @@ body {
 
 /* Sección de entrada */
 .input-section {
-    flex: 60%;
+    flex: 50%;
     background-color: var(--color-secondary);
     border: 1px solid #2d0db9;
     border-radius: 64px 64px 0 0;
