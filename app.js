@@ -1,3 +1,6 @@
+let amigos = []
+let listaAmigos = document.getElementById('listaAmigos');
+
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector (elemento);
     elementoHTML.innerHTML = texto; 

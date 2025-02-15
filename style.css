@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #65354f;
+    --color-primary: #cd85e0;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #6a56b7;
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #2d0db9;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
