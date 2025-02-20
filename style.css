@@ -16,9 +16,9 @@
 }
 
 body {
-    background-image: url('amigo-secreto-2.webp');
+    background-image: url('amigo-secreto.webp');
     background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
-    background-position: right center; /* Centra la imagen */
+    background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
