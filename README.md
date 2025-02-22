@@ -1,6 +1,4 @@
-# Título del Proyecto
-
-Challenge-amigo-secreto
+# Challenge-amigo-secreto
 
 ![Captura de pantalla_21-2-2025_142834_127 0 0 1](https://github.com/user-attachments/assets/6da5de25-0f28-4694-8625-765097c1c4ee)
 
@@ -11,7 +9,7 @@ tener un listado de ellos, realizar el sorteo que nos indique quien es nuestro a
 Cuenta con un botón para reiniciar el juego una ves concluido.
 
 ## Enlace Proyecto
-
+https://github.com/yorley-v/challenge-amigo-secreto-alura.git
 
 🚀 Características Clave:
 -
