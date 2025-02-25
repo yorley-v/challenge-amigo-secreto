@@ -22,6 +22,12 @@ function agregarAmigo() {
   inputAmigo.value = ""; // Limpiar el campo de entrada
 }
 
+inputAmigo.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    agregarAmigo();
+  }
+});
+
 function invertirNombre(nombre) {
   return nombre.split('').reverse().join('');
 }
@@ -47,11 +53,5 @@ function resetGame() {
     inputAmigo.value = ""; // Limpiar el campo de entrada
   }
 }
-
-inputAmigo.addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    agregarAmigo();
-  }
-});
 
 resetButton.addEventListener('click', resetGame);
