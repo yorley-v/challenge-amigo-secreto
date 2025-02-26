@@ -52,7 +52,7 @@ https://github.com/yorley-v/challenge-amigo-secreto-alura.git
 *Luri (IA de Alura).
 
 ##### 🌟 Creado por
-Yorley Vera 
+Yorley Vera (yorley-v)
 
 
 
